@@ -1,4 +1,94 @@
-baseURL = 'https://teambaconn.github.io/'
-languageCode = 'en-us'
-title = 'Bacon Game Dev'
-theme = 'PaperMod'
+baseURL: "https://teambaconn.github.io/"
+title: "Bacon Game Dev"
+pagination:
+  pagerSize: 5
+theme: PaperMod
+publishDir: public
+
+menu:
+  main:
+    - name: Archives
+      url: /archives/
+      weight: 10
+    - name: Search
+      url: /search/
+      weight: 5
+    - name: Tags
+      url: /tags/
+      weight: 5
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableEmoji: true
+
+params:
+  env: production
+  title: Bacon Game Dev
+  description: "Bacon's thoughts on game dev and life"
+  keywords: [Blog]
+  author: "Tuong Nguyen - aka Bacon"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  useHugoToc: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: true
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  comments: true
+
+  profileMode:
+    enabled: false
+
+  homeInfoParams:
+    Title: >
+      Bacon Game Dev
+    Content: >
+      just a lot of personal stuffs that I live, see and think about everyday.
+  socialIcons:
+    - name: github
+      url: "https://github.com/TeamBaconn"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/nguyen-lam-tuong-8ab5a7199/"
+    - name: facebook
+      url: "https://www.facebook.com/chilabacon/"
+    - name: email
+      url: "mailto:nguyenlamtuong2001@gmail.com"
+
+  cover:
+    hidden: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+pygmentsUseClasses: true
+
+markup:
+  highlight:
+    noClasses: false
