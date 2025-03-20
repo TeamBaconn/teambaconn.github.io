@@ -2,7 +2,7 @@ baseURL = "https://teambaconn.github.io/"
 title = "Bacon Game Dev"
 pagination.pagerSize = 5
 theme = "PaperMod"
-publishDir = "docs"
+publishDir = "public"
 
 enableRobotsTXT = true
 buildDrafts = false
