@@ -9,10 +9,24 @@
     <lastBuildDate>Thu, 20 Mar 2025 11:07:57 +0700</lastBuildDate>
     <atom:link href="https://teambaconn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Game</title>
+      <link>https://teambaconn.github.io/tags/game/</link>
+      <pubDate>Thu, 20 Mar 2025 11:07:57 +0700</pubDate>
+      <guid>https://teambaconn.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Portfolio</title>
       <link>https://teambaconn.github.io/tags/portfolio/</link>
       <pubDate>Thu, 20 Mar 2025 11:07:57 +0700</pubDate>
       <guid>https://teambaconn.github.io/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Showcase</title>
+      <link>https://teambaconn.github.io/tags/showcase/</link>
+      <pubDate>Thu, 20 Mar 2025 11:07:57 +0700</pubDate>
+      <guid>https://teambaconn.github.io/tags/showcase/</guid>
       <description></description>
     </item>
   </channel>

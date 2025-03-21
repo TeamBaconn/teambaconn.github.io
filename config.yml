@@ -54,7 +54,7 @@ params:
   comments: true
   hideSummary: false
   showtoc: true
-  tocopen: true
+  tocopen: false
   comments: true
 
   profileMode:
@@ -70,7 +70,7 @@ params:
       >}}
       \n\n
       >\n\n
-      Hi, I’m Bacon."
+      Hi, I’m Bacon 🥓"
     content:
       "I create & experiment games, apps with Unreal Engine, Unity and other frameworks. This blog is where I share my working experiences, personal stories, and everything in between. I hope you enjoy it!
       \n\n
@@ -113,3 +113,6 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true

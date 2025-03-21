@@ -9,29 +9,11 @@
     <lastBuildDate>Thu, 20 Mar 2025 11:07:57 +0700</lastBuildDate>
     <atom:link href="https://teambaconn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Portfolio</title>
+      <title>📋 Portfolio</title>
       <link>https://teambaconn.github.io/posts/portfolio/</link>
       <pubDate>Thu, 20 Mar 2025 11:07:57 +0700</pubDate>
       <guid>https://teambaconn.github.io/posts/portfolio/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
-&lt;p&gt;My name is Nguyen Lam Tuong (Bacon) and I am from Vietnam.&lt;/p&gt;
-&lt;h1 id=&#34;shipped-games&#34;&gt;Shipped games&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;Sipher Odyssey&#34; loading=&#34;lazy&#34; src=&#34;https://teambaconn.github.io/portfolio/sipher.jpg&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-
-
-&lt;p&gt;&lt;details &gt;
-  &lt;summary markdown=&#34;span&#34;&gt;&lt;strong&gt;Sipher Odyssey&lt;/strong&gt;&lt;/summary&gt;
-  
-&lt;/details&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt=&#34;Demon Hunter&#34; loading=&#34;lazy&#34; src=&#34;https://teambaconn.github.io/portfolio/demonhunter.jpg&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-
-
-&lt;p&gt;&lt;details &gt;
-  &lt;summary markdown=&#34;span&#34;&gt;&lt;strong&gt;Demon Hunter&lt;/strong&gt;&lt;/summary&gt;
-  
-&lt;/details&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <description>Showcasing games &amp;amp; apps that I have worked on</description>
     </item>
   </channel>
 </rss>
