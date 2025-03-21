@@ -1,5 +1,5 @@
 baseURL: "https://teambaconn.github.io/"
-title: "Bacon Game Dev"
+title: "BaconGameDev's Blog"
 pagination:
   pagerSize: 5
 theme: PaperMod
@@ -35,10 +35,10 @@ enableEmoji: true
 
 params:
   env: production
-  title: "Bacon Game Dev"
-  description: "Hey there, I'm Bacon! 🎮"
-  keywords: ["Blog", "Devlog", "Game Development", "Unreal Engine", "Game Engineer", "Unity"]
-  author: "Tuong Nguyen - aka Bacon"
+  title: "BaconGameDev's Blog"
+  description: "BaconGameDev's Blog"
+  keywords: ["Blog", "Devlog", "Game Development", "Unreal Engine", "Unity", "UE5", "Game Engineer", "Unity", "Apps"]
+  author: "Tuong Nguyen, aka Bacon"
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: true
@@ -61,17 +61,35 @@ params:
     enabled: false
 
   homeInfoParams:
-    Title: "Bacon Game Dev"
-    Content: "Hey there, I'm Bacon! 🎮"
+    title:
+      "
+      {{< figure
+        src=logo.png
+        loading=lazy 
+        width=200
+      >}}
+      \n\n
+      >\n\n
+      Hi, I’m Bacon."
+    content:
+      "I create & experiment games, apps with Unreal Engine, Unity and other frameworks. This blog is where I share my working experiences, personal stories, and everything in between. I hope you enjoy it!
+      \n\n
+      >\n\n 
+      About me: [📋 Portfolio](../posts/portfolio)
+      \n\n
+      \n\n
+      Support me: [☕ Kofi](https://ko-fi.com/bacongamedev)"
   socialIcons:
-    - name: github
-      url: "https://github.com/TeamBaconn"
+    - name: youtube
+      url: "https://www.youtube.com/@bacongamedev"
+    - name: email
+      url: "mailto:nguyenlamtuong2001@gmail.com"
     - name: linkedin
       url: "https://www.linkedin.com/in/nguyen-lam-tuong-8ab5a7199/"
     - name: facebook
       url: "https://www.facebook.com/chilabacon/"
-    - name: email
-      url: "mailto:nguyenlamtuong2001@gmail.com"
+    - name: github
+      url: "https://github.com/TeamBaconn"
 
   cover:
     hidden: false
