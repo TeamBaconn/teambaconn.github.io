@@ -37,7 +37,7 @@ params:
   env: production
   title: "Bacon Game Dev"
   description: "Hey there, I'm Bacon! 🎮"
-  keywords: ["Blog"]
+  keywords: ["Blog", "Devlog", "Game Development", "Unreal Engine", "Game Engineer", "Unity"]
   author: "Tuong Nguyen - aka Bacon"
   defaultTheme: auto
   disableThemeToggle: false
