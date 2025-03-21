@@ -42,7 +42,7 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -84,6 +84,11 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+  assets:
+    favicon: "/logo.png"
+    favicon16x16: "/logo16.png"
+    favicon32x32: "/logo32.png"
 
 pygmentsUseClasses: true
 
