@@ -12,15 +12,19 @@ analytics:
 
 menu:
   main:
-    - name: Archives
-      url: /archives/
-      weight: 10
+    - identifier: unreal-post
+      name: 'Unreal Engine'
+      url: "/unreal-post/"
+      weight: 1
     - name: Search
       url: /search/
-      weight: 5
+      weight: 2
     - name: Tags
       url: /tags/
-      weight: 5
+      weight: 3
+    - name: Archives
+      url: /archives/
+      weight: 4
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -39,9 +43,12 @@ outputs:
 enableEmoji: true
 
 params:
+  mainSections:
+    - posts
+    - unreal-post
   env: production
   title: "BaconGameDev's Blog"
-  description: "BaconGameDev's Blog"
+  description: "I make games, apps with Unreal Engine, Unity and other frameworks. This blog is where I share my working experiences, personal stories, and everything in between. I hope you enjoy it!"
   keywords: ["Blog", "Devlog", "Game Development", "Unreal Engine", "Unity", "UE5", "Game Engineer", "Unity", "Apps"]
   author: "Tuong Nguyen, aka Bacon"
   defaultTheme: auto
@@ -77,7 +84,7 @@ params:
       >\n\n
       Hi, I’m Bacon 🥓"
     content:
-      "I create & experiment games, apps with Unreal Engine, Unity and other frameworks. This blog is where I share my working experiences, personal stories, and everything in between. I hope you enjoy it!
+      "I make games, apps with Unreal Engine, Unity and other frameworks. This blog is where I share my working experiences, personal stories, and everything in between. I hope you enjoy it!
       \n\n
       >\n\n 
       About me: [📋 Portfolio](../posts/portfolio)
@@ -116,8 +123,9 @@ params:
 pygmentsUseClasses: true
 
 markup:
-  highlight:
-    noClasses: false
+  highlight: 
+    guessSyntax: true
+    noClasses: false 
   goldmark:
     renderer:
       unsafe: true

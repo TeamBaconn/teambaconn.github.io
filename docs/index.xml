@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 22 Mar 2025 21:49:26 +0700</lastBuildDate>
     <atom:link href="https://teambaconn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[UE5] Using Gameplay Tags with GAS</title>
-      <link>https://teambaconn.github.io/posts/gameplay-tag/</link>
+      <title>Using Gameplay Tags with GAS</title>
+      <link>https://teambaconn.github.io/unreal-post/gameplay-tag/</link>
       <pubDate>Sat, 22 Mar 2025 21:49:26 +0700</pubDate>
-      <guid>https://teambaconn.github.io/posts/gameplay-tag/</guid>
+      <guid>https://teambaconn.github.io/unreal-post/gameplay-tag/</guid>
       <description>Gotcha tips you might not know when using Gameplay Tags with GAS</description>
     </item>
     <item>
