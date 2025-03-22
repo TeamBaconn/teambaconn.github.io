@@ -4,6 +4,7 @@ pagination:
   pagerSize: 5
 theme: PaperMod
 publishDir: docs
+googleAnalytics: G-1FTRRSKLPF
 
 menu:
   main:
@@ -34,7 +35,6 @@ outputs:
 enableEmoji: true
 
 params:
-  googleAnalytics: G-1FTRRSKLPF
   env: production
   title: "BaconGameDev's Blog"
   description: "BaconGameDev's Blog"
