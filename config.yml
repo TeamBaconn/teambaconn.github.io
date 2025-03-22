@@ -4,7 +4,11 @@ pagination:
   pagerSize: 5
 theme: PaperMod
 publishDir: docs
+
 googleAnalytics: G-1FTRRSKLPF
+analytics:
+  google:
+    SiteVerificationTag: G-1FTRRSKLPF
 
 menu:
   main:
