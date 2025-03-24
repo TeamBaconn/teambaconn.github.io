@@ -1,6 +1,6 @@
 .post-content code{
-    color: #ffab03;
-    background-color: var(--entry);
+    color: #03ff03;
+    background-color: black;
 }
 
 .post-content {
@@ -12,19 +12,14 @@
 }
 
 :root {
-    --entry: rgb(226, 226, 226);
-}
+    --entry: rgb(226, 226, 226); 
+} 
+
+/* Generated using: hugo gen chromastyles --style=catppuccin-mocha */
 
 pre.chroma {
     -moz-tab-size:4;-o-tab-size:4;tab-size:4;
 }
-
-td, th {
-    border: 2px solid #333;
-    padding: 100px;
-} 
-
-/* Generated using: hugo gen chromastyles --style=catppuccin-mocha */
 
 /* Background */ .bg { color:#cdd6f4;background-color:#1e1e2e; }
 /* PreWrapper */ .chroma { color:#cdd6f4;background-color:#1e1e2e; } 
