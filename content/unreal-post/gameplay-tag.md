@@ -154,7 +154,7 @@ bool FReplicatedMapWrapper::NetSerialize(FArchive& Ar, class UPackageMap* Map, b
 		}
 	}
 
-	return FGameplayEffectContext::NetSerialize(Ar, Map, bOutSuccess);
+	return true;
 }
 ```
 
