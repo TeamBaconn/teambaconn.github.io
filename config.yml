@@ -78,7 +78,7 @@ params:
       {{< figure
         src=logo.png
         loading=lazy 
-        width=200
+        width=256
       >}}
       \n\n
       >\n\n
