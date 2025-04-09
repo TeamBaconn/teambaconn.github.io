@@ -116,6 +116,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
   assets:
+    disableHLJS: true
     favicon: "/logo.png"
     favicon16x16: "/logo16.png"
     favicon32x32: "/logo32.png"
