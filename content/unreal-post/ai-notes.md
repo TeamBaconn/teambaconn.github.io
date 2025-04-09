@@ -1,6 +1,6 @@
 +++
 date = '2025-04-02T23:17:44+07:00'
-draft = false
+draft = true
 title = 'Ai Notes'
 +++
 

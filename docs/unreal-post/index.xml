@@ -6,29 +6,8 @@
     <description>Recent content in Unreal-Posts on BaconGameDev&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Apr 2025 16:37:58 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 17:19:13 +0700</lastBuildDate>
     <atom:link href="https://teambaconn.github.io/unreal-post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>External Resources</title>
-      <link>https://teambaconn.github.io/unreal-post/external-resources/</link>
-      <pubDate>Tue, 08 Apr 2025 16:37:58 +0700</pubDate>
-      <guid>https://teambaconn.github.io/unreal-post/external-resources/</guid>
-      <description>&lt;p&gt;Unreal C++ indepth knowledge
-&lt;a href=&#34;https://www.youtube.com/@enigma_dev/videos&#34;&gt;https://www.youtube.com/@enigma_dev/videos&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Paste this into IDE (Rider only) variable watcher to check if its client or server
-{,,UnrealEditor-Engine.dll}::GPlayInEditorContextString
-{,,UnrealEditor-Core.dll}::GFrameCounter
-{,,UnrealEditor-Core.dll}::GConfig
-&lt;a href=&#34;https://dev.epicgames.com/community/learning/tutorials/dXl5/advanced-debugging-in-unreal-engine&#34;&gt;https://dev.epicgames.com/community/learning/tutorials/dXl5/advanced-debugging-in-unreal-engine&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ai Notes</title>
-      <link>https://teambaconn.github.io/unreal-post/ai-notes/</link>
-      <pubDate>Wed, 02 Apr 2025 23:17:44 +0700</pubDate>
-      <guid>https://teambaconn.github.io/unreal-post/ai-notes/</guid>
-      <description>&lt;p&gt;When spawn AI in runtime and the perception system won&amp;rsquo;t pick up any signal use PerceptionComponent-&amp;gt;RequestStimuliListenerUpdate(); if your team
-data is defined in the pawn which comes later on when the controller possessed a pawn.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>[Unreal] Animation Driven System</title>
       <link>https://teambaconn.github.io/unreal-post/animation-driven/</link>
