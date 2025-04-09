@@ -3,7 +3,7 @@ title: "BaconGameDev's Blog"
 pagination:
   pagerSize: 5
 theme: PaperMod
-publishDir: "docs"
+publishDir: docs
 
 googleAnalytics: G-1FTRRSKLPF
 analytics:
