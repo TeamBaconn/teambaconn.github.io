@@ -6,6 +6,7 @@ summary = 'A general overview of animation-driven systems in game development, a
 tags = ['gas', 'game', 'unreal', 'animation']
 [cover]
 image = "/posts/animation-driven/anim4.png"
+hiddenInSingle = true
 +++
 
 ## What is animation driven?
@@ -135,6 +136,6 @@ _Play Animation A → Expect Notify to fire → Check for that event in the same
 …it might fail, because the notify may not trigger until the next animation tick.
 \
 \
-**Solution:** If the logic must happen right after playing the animation, don’t rely on the notify. Trigger it manually, or delay your logic by 1 frame.
+**Solution:** If the logic must happen right after playing the animation, don’t rely on the notify. Trigger it manually after playing the animation, or delay your logic by 1 frame.
 - The notify that you put in the end will **NOT** be guaranteed to hit, since the animation could be interupted or blend out too early. Only Notify State will hit end if your animation finishes early (only if the NotifyBegin has already triggered). 
 
