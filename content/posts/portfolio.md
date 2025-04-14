@@ -29,7 +29,7 @@ image = "/tuong.jpg"
 - 3D Math, Linear Algebra
 - Web & App Fullstack Development
 
-# Shipped Games 
+# Published Games 
 
 {{< figure src=/portfolio/sipher.jpg loading=lazy width=300 >}}
 > {{< collapse summary= "**Sipher Odyssey - Cross Platform**">}}
