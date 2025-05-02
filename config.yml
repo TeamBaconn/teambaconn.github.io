@@ -11,10 +11,14 @@ analytics:
     SiteVerificationTag: G-1FTRRSKLPF
 
 menu:
-  main:
+  main: 
     - identifier: unreal-post
-      name: 'Unreal Engine'
+      name: 'UE Blog'
       url: "/unreal-post/"
+      weight: 1
+    - identifier: plugin
+      name: 'My Plugins'
+      url: "/plugin/"
       weight: 1
     - name: Search
       url: /search/
