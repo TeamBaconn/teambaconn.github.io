@@ -7,6 +7,21 @@ tocopen = true
 image = "/plugin/combo-graph/combo2.png"
 +++
 
+# ⚠️ Usage Modes – Read Before Using
+
+This plugin supports **two modes**, and setup/implementation may differ depending on the mode. These differences will be clearly annotated in the documentation as **GAS** or **Generic** use cases:
+
+- **GAS Mode** (Recommended):  
+  ✅ Works with Gameplay Ability System  
+  ✅ Full feature support  
+  ✅ Built-in replication via GAS  
+
+- **Generic Mode**:  
+  ✅ Full feature support  
+  ❌ **No replication support** – manual replication is required if needed  
+
+Choose the mode that best fits your project setup.
+
 # Node Types
 
 ---
