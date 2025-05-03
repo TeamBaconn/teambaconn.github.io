@@ -11,17 +11,18 @@ image = "/plugin/combo-graph/combo2.png"
 
 This plugin supports **two modes**, and setup/implementation may differ depending on the mode. These differences will be clearly annotated in the documentation as **GAS** or **Generic** use cases:
 
+{{< color "#FFD700" "Choose the mode that best fits your project setup." "black" >}}
+
 - **GAS Mode** (Recommended):  
-  ✅ Works with Gameplay Ability System  
+  ✅ Works well with Gameplay Ability System  
   ✅ Full feature support  
   ✅ Built-in replication via GAS  
 
-\
+{{< linebreak >}}
+
 - **Generic Mode**:  
   ✅ Full feature support  
   ❌ **No replication support** – manual replication is required if needed  
-
-{{< color "#FFD700" "Choose the mode that best fits your project setup." "black" >}}  
 
 # Node Types
 
@@ -34,6 +35,7 @@ Root node is the starting point of the graph. When the graph resets, it returns 
 ---
 
 ## Execution Node
+{{< figure src="/plugin/combo-graph/combo12.png" loading="lazy" >}}
 
 Used to perform actions, such as playing animations, consuming mana, or triggering gameplay effects.
 
@@ -41,12 +43,12 @@ Used to perform actions, such as playing animations, consuming mana, or triggeri
 - Passes are executed from top to bottom.
 - If any pass fails, execution stops and follows the `Fail` output pin.
 
-\
+{{< linebreak >}}
 ### Creating a Custom Action Pass
 
 Create a custom Action Pass by inheriting from `UComboActionPass`.
 
-Examples:
+**Examples:**
 - C++: `UComboActionPass_PlayMontage`
 - Blueprint: `CAP_Generic_Attack`
 
@@ -56,15 +58,14 @@ Examples:
 
 ## Condition Branch
 
-Acts like an `If` statement.  
-Evaluates one or more Condition Passes using logical operators (e.g., AND, OR) and determines which path to take.
+Acts like an `IF` statement. The node will evaluates one or more Condition Passes using logical operators (e.g., AND, OR) and determines which path to take. 
 
-\
+{{< linebreak >}}
 ### Creating a Custom Condition Pass
 
 Create a custom Condition Pass by inheriting from `UComboConditionPass`.
 
-Examples:
+**Examples:**
 - C++: `UComboConditionPass_EnoughStat`
 - Blueprint: `CCP_ConditionExample`
 
@@ -81,7 +82,7 @@ Examples:
 Waits for a specific player input before continuing the combo.  
 You define input types using **Gameplay Tags** and can integrate with the **Enhanced Input System** for more advanced input handling.
 
-\
+{{< linebreak >}}
 ### How to Create a New Input
 
 {{< figure src="/plugin/combo-graph/combo8.png" loading="lazy" >}}
@@ -112,7 +113,7 @@ Resets the graph and returns execution to the Root Node.
 These nodes allow for function-like behavior within the graph.  
 Use them to simplify complex graphs or to jump to specific locations in the graph based on gameplay logic.
 
-\
+{{< linebreak >}}
 ### How to Use
 
 1. Create a Portal Node and assign it a unique **Gameplay Tag**.
