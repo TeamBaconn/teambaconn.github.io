@@ -16,11 +16,12 @@ This plugin supports **two modes**, and setup/implementation may differ dependin
   ✅ Full feature support  
   ✅ Built-in replication via GAS  
 
+\
 - **Generic Mode**:  
   ✅ Full feature support  
   ❌ **No replication support** – manual replication is required if needed  
 
-Choose the mode that best fits your project setup.
+{{< color "#FFD700" "Choose the mode that best fits your project setup." "black" "bold" >}}  
 
 # Node Types
 
@@ -40,6 +41,7 @@ Used to perform actions, such as playing animations, consuming mana, or triggeri
 - Passes are executed from top to bottom.
 - If any pass fails, execution stops and follows the `Fail` output pin.
 
+\
 ### Creating a Custom Action Pass
 
 Create a custom Action Pass by inheriting from `UComboActionPass`.
@@ -57,6 +59,7 @@ Examples:
 Acts like an `If` statement.  
 Evaluates one or more Condition Passes using logical operators (e.g., AND, OR) and determines which path to take.
 
+\
 ### Creating a Custom Condition Pass
 
 Create a custom Condition Pass by inheriting from `UComboConditionPass`.
@@ -66,6 +69,7 @@ Examples:
 - Blueprint: `CCP_ConditionExample`
 
 > Tip: `CCP` stands for **Combo Condition Pass**.  
+
 > ⚠️ Condition Passes must only call `const` functions. They should not change game state. If you need to change state or trigger events, use an Execution Node instead.
 
 ---
@@ -77,6 +81,7 @@ Examples:
 Waits for a specific player input before continuing the combo.  
 You define input types using **Gameplay Tags** and can integrate with the **Enhanced Input System** for more advanced input handling.
 
+\
 ### How to Create a New Input
 
 {{< figure src="/plugin/combo-graph/combo8.png" loading="lazy" >}}
@@ -107,6 +112,7 @@ Resets the graph and returns execution to the Root Node.
 These nodes allow for function-like behavior within the graph.  
 Use them to simplify complex graphs or to jump to specific locations in the graph based on gameplay logic.
 
+\
 ### How to Use
 
 1. Create a Portal Node and assign it a unique **Gameplay Tag**.

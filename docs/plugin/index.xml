@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Plugins on BaconGameDev's Blog</title><link>https://teambaconn.github.io/plugin/</link><description>Recent content in Plugins on BaconGameDev's Blog</description><generator>Hugo -- 0.145.0</generator><language>en</language><lastBuildDate>Fri, 02 May 2025 14:07:27 +0700</lastBuildDate><atom:link href="https://teambaconn.github.io/plugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Bacon Combo Graph</title><link>https://teambaconn.github.io/plugin/combo-graph/overview/</link><pubDate>Fri, 02 May 2025 14:07:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/overview/</guid><description>Bacon Combo Graph is an Unreal Engine plugin (UE5.3+) designed to help you build complex, animation-driven combat systems fast and easy</description></item><item><title>Documentation</title><link>https://teambaconn.github.io/plugin/combo-graph/documentation/</link><pubDate>Wed, 30 Apr 2025 16:58:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/documentation/</guid><description>&lt;h1 id="-usage-modes--read-before-using">⚠️ Usage Modes – Read Before Using&lt;/h1>
 &lt;p>This plugin supports &lt;strong>two modes&lt;/strong>, and setup/implementation may differ depending on the mode. These differences will be clearly annotated in the documentation as &lt;strong>GAS&lt;/strong> or &lt;strong>Generic&lt;/strong> use cases:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>&lt;strong>GAS Mode&lt;/strong> (Recommended):&lt;br>
+&lt;li>&lt;strong>GAS Mode&lt;/strong> (Recommended):&lt;br>
 ✅ Works with Gameplay Ability System&lt;br>
 ✅ Full feature support&lt;br>
-✅ Built-in replication via GAS&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Generic Mode&lt;/strong>:&lt;br>
+✅ Built-in replication via GAS&lt;/li>
+&lt;/ul>
+&lt;p>\&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Generic Mode&lt;/strong>:&lt;br>
 ✅ Full feature support&lt;br>
-❌ &lt;strong>No replication support&lt;/strong> – manual replication is required if needed&lt;/p></description></item><item><title>Quick Start</title><link>https://teambaconn.github.io/plugin/combo-graph/quick-start/</link><pubDate>Wed, 30 Apr 2025 14:21:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/quick-start/</guid><description>&lt;h2 id="1-prepare-your-acharacter">1. Prepare your ACharacter&lt;/h2>
+❌ &lt;strong>No replication support&lt;/strong> – manual replication is required if needed&lt;/li>
+&lt;/ul>
+&lt;span style="
+background-color: #FFD700;
+padding: 2px 4px;
+margin: 1px;
+border-radius: 2px;
+font-size: 95%;
+">
+&lt;span style="
+color: black;
+font-weight: bold;
+">
+Choose the mode that best fits your project setup.
+&lt;/span>
+&lt;/span>
+&lt;h1 id="node-types">Node Types&lt;/h1>
+&lt;hr>
+&lt;h2 id="root-node">Root Node&lt;/h2>
+&lt;p>Root node is the starting point of the graph. When the graph resets, it returns to this node.&lt;/p></description></item><item><title>Quick Start</title><link>https://teambaconn.github.io/plugin/combo-graph/quick-start/</link><pubDate>Wed, 30 Apr 2025 14:21:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/quick-start/</guid><description>&lt;h2 id="1-prepare-your-acharacter">1. Prepare your ACharacter&lt;/h2>
 &lt;p>Make sure your Character blueprint or C++ has these components added:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>AnimationDrivenComponent&lt;/code> – For listening to animation montage data and signaling it to other systems (e.g., gameplay abilities)&lt;/li>
