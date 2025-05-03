@@ -21,7 +21,7 @@ This plugin supports **two modes**, and setup/implementation may differ dependin
   ✅ Full feature support  
   ❌ **No replication support** – manual replication is required if needed  
 
-{{< color "#FFD700" "Choose the mode that best fits your project setup." "black" "bold" >}}  
+{{< color "#FFD700" "Choose the mode that best fits your project setup." "black" >}}  
 
 # Node Types
 
