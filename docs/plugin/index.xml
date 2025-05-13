@@ -29,13 +29,33 @@ Choose the mode that best fits your project setup.
 &lt;h1 id="node-types">Node Types&lt;/h1>
 &lt;hr>
 &lt;h2 id="root-node">Root Node&lt;/h2>
-&lt;p>Root node is the starting point of the graph. When the graph resets, it returns to this node.&lt;/p></description></item><item><title>Quick Start</title><link>https://teambaconn.github.io/plugin/combo-graph/quick-start/</link><pubDate>Wed, 30 Apr 2025 14:21:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/quick-start/</guid><description>&lt;h2 id="1-prepare-your-acharacter">1. Prepare your ACharacter&lt;/h2>
+&lt;p>Root node is the starting point of the graph. When the graph resets, it returns to this node.&lt;/p></description></item><item><title>Quick Start</title><link>https://teambaconn.github.io/plugin/combo-graph/quick-start/</link><pubDate>Wed, 30 Apr 2025 14:21:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/quick-start/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oyybI_qCwcw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;em>- You can watch the tutorial video and follow the text version below.&lt;/em>&lt;/p>
+&lt;h2 id="1-prepare-your-acharacter">1. Prepare your ACharacter&lt;/h2>
 &lt;p>Make sure your Character blueprint or C++ has these components added:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>AnimationDrivenComponent&lt;/code> – For listening to animation montage data and signaling it to other systems (e.g., gameplay abilities)&lt;/li>
 &lt;li>&lt;code>ComboManagerComponent&lt;/code> – For managing the combo graph&lt;/li>
 &lt;/ul>
-&lt;p>&lt;br>
+&lt;p>
+&lt;span style="
+background-color: red;
+padding: 2px 4px;
+margin: 1px;
+border-radius: 2px;
+font-size: 95%;
+">
+&lt;span style="
+color: white;
+font-weight: bold;
+">
+IMPORTANT!!!
+&lt;/span>
+&lt;/span>
+&lt;br>
+&lt;br>
 &lt;span style="
 background-color: #FFD700;
 padding: 2px 4px;
@@ -47,11 +67,7 @@ font-size: 95%;
 color: black;
 font-weight: bold;
 ">
-GAS Users
+For GAS Users
 &lt;/span>
 &lt;/span>
-&lt;/p>
-&lt;blockquote>
-&lt;ul>
-&lt;li>
-&lt;p>Make sure your Character has &lt;code>AbilitySystemComponent&lt;/code> and is derived from &lt;code>UContextAbilitySystemComponent&lt;/code>.&lt;/p></description></item></channel></rss>
+&lt;/p></description></item></channel></rss>

@@ -17,7 +17,10 @@ Bacon Combo Graph is an Unreal Engine plugin (UE5.4+) designed to help you build
 
 ### [📋 Quick start](../quick-start)
 ### [📖 Documentation](../documentation)
-### [📼 Tutorial](../)
+
+
+### 📼 Tutorial
+>{{< youtube oyybI_qCwcw >}}
 
 # ⚠️ Disclaimers
 - Plugin is under active development. More updates coming! Found a bug or have feedback? Just reach out in the [Discord server](https://discord.gg/4sWctpzayy) — I’ll respond as soon as possible.

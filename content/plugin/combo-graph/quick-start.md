@@ -5,6 +5,10 @@ title = 'Quick Start'
 tocopen = true
 +++ 
 
+{{< youtube oyybI_qCwcw >}}
+
+*- You can watch the tutorial video and follow the text version below.*
+
 ## 1. Prepare your ACharacter
 
 Make sure your Character blueprint or C++ has these components added:
@@ -12,15 +16,17 @@ Make sure your Character blueprint or C++ has these components added:
 - `AnimationDrivenComponent` – For listening to animation montage data and signaling it to other systems (e.g., gameplay abilities)
 - `ComboManagerComponent` – For managing the combo graph
 
+{{< color "red" "IMPORTANT!!!" "white" "bold" >}}
 \
-{{< color "#FFD700" "GAS Users" "black" "bold" >}}
+\
+{{< color "#FFD700" "For GAS Users" "black" "bold" >}}
 
 >- Make sure your Character has `AbilitySystemComponent` and is derived from `UContextAbilitySystemComponent`.  
 >
 >- See `ComboBasicCharacter.h` for a default GAS implementation.
 
 \
-{{< color "#6c757d" "Generic Users" "white" "bold" >}}
+{{< color "#6c757d" "For Generic Users" "white" "bold" >}}
 
 >Add the `GameplayTasks` component to your Character's Blueprint to use GameplayTasks.
 
@@ -80,13 +86,15 @@ Make sure your Character blueprint or C++ has these components added:
 2. Select your Combo Graph asset.
 3. Select the appropriate graph instance:  
 
+{{< color "red" "IMPORTANT!!!" "white" "bold" >}}
 \
-{{< color "#FFD700" "GAS Users" "black" "bold" >}} 
+\
+{{< color "#FFD700" "For GAS Users" "black" "bold" >}} 
 
    > Use `ComboGraphInstance_ASC`  
 
 \
-{{< color "#6c757d" "Generic Users" "white" "bold" >}} 
+{{< color "#6c757d" "For Generic Users" "white" "bold" >}} 
 
    > Use `ComboGraphInstance_Generic`
 
@@ -127,13 +135,15 @@ We use animation-driven design: static data is stored in animations and triggere
    >- `ADNS_Damage_LeftSword`
    >- …
 
+{{< color "red" "IMPORTANT!!!" "white" "bold" >}}
 \
-   {{< color "#FFD700" "GAS Users" "black" "bold" >}}  
+\
+   {{< color "#FFD700" "For GAS Users" "black" "bold" >}}  
    >- `ANS_GAS_InputWindow`  
    >- `ANS_GAS_ComboWindow`
 
 \
-   {{< color "#6c757d" "Generic Users" "white" "bold" >}}  
+   {{< color "#6c757d" "For Generic Users" "white" "bold" >}}  
    >- `ANS_Generic_InputWindow`  
    >- `ANS_Generic_ComboWindow`
 
@@ -143,14 +153,17 @@ We use animation-driven design: static data is stored in animations and triggere
 
 The plugin provides built-in collision detection for both GAS and non-GAS setups.
 
-{{< color "#FFD700" "GAS Users" "black" "bold" >}}
+{{< color "red" "IMPORTANT!!!" "white" "bold" >}}
+\
+\
+{{< color "#FFD700" "For GAS Users" "black" "bold" >}}
 
 >{{< figure src=/plugin/combo-graph/combo4.png loading=lazy >}}  
 >
 >Use the `GA_CombatAbility_Base` and override the `OnHit` function to handle hit events.
 
 \
-{{< color "#6c757d" "Generic Users" "white" "bold" >}} 
+{{< color "#6c757d" "For Generic Users" "white" "bold" >}} 
 
 >{{< figure src=/plugin/combo-graph/combo11.png loading=lazy >}}  
 >
