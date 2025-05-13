@@ -24,6 +24,7 @@ Make sure your Character blueprint or C++ has these components added:
 >- Make sure your Character has `AbilitySystemComponent` and is derived from `UContextAbilitySystemComponent`.  
 >
 >- See `ComboBasicCharacter.h` for a default GAS implementation.
+>- Or you can read the GAS installation guide here: **[Installation doc](https://github.com/tranek/GASDocumentation?tab=readme-ov-file#concepts-asc-setup)**
 
 \
 {{< color "#6c757d" "For Generic Users" "white" "bold" >}}
