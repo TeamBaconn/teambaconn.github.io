@@ -15,6 +15,8 @@ hiddenInSingle = true
 # Introduction
 Bacon Combo Graph is an Unreal Engine plugin (UE5.4+) designed to help you build complex, animation-driven combat systems fast and easy. With a custom visual editor, native GAS support, and multiplayer-ready design, it's perfect for devs who want clean workflow and fast iteration — especially for melee or combo-heavy games.
 
+The plugin got featured on 80 Levels and receive a lot of positive feedbacks ([Article](https://80.lv/articles/custom-combat-system-editor-tool-for-combo-creation-in-ue5)) - ([Reddit](https://www.reddit.com/r/UnrealEngine5/comments/1iwhbtn/showcasing_my_combat_system_editor_tool_for_combo/))
+
 ## [📋 Quick Start](../quick-start)
 ## [📖 Documentation](../documentation)
 ## [🪵 Changelog](../changelog)
