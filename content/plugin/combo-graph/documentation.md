@@ -100,6 +100,10 @@ You define input types using **Gameplay Tags** and can integrate with the **Enha
    Example: `ComboGraph.Input.HeavyAttack.B` can represent a backward heavy attack.  
    This will match input nodes with `ComboGraph.Input.HeavyAttack.B` or its parent `ComboGraph.Input.HeavyAttack`.
 
+{{< linebreak >}}
+### How to use directional input
+{{< youtube R8-KoSKdxhA >}}
+
 ---
 
 ## Reset Node
