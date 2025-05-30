@@ -4,7 +4,20 @@ draft = false
 title = 'Changelog'
 +++
 
-## 1.1.1 (Latest on FAB)
+## 1.1.2 (Latest on FAB)
+
+#### Compatibility
+- UE `5.4` – `5.5`
+
+#### Bug Fixes
+
+- **feat**: Fix crash when activating context ability which the ASC is on the PlayerState not the Character / Pawn.
+- **Note**: Keep in mind, `GetAvatarActor` function of the ASC must return the Character / Pawn. If it return something else such as **PlayerState**, some of the functions in this plugin will be broken.
+There are 2 ways to fix this, change your avatar actor to the character or change the code in my plugin to adapt with your "Avatar Actor" version.
+ 
+---
+
+## 1.1.1
 
 #### Compatibility
 - UE `5.4` – `5.5`
