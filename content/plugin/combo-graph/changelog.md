@@ -11,8 +11,8 @@ title = 'Changelog'
 
 #### Bug Fixes
 
-- **feat**: Fix crash when activating context ability which the ASC is on the PlayerState not the Character / Pawn.
-- **Note**: Keep in mind, `GetAvatarActor` function of the ASC must return the Character / Pawn. If it return something else such as **PlayerState**, some of the functions in this plugin will be broken.
+- **fix**: Fix crash when activating context ability which the ASC is on the PlayerState not the Character / Pawn.
+- **note**: Keep in mind, `GetAvatarActor` function of the ASC must return the Character / Pawn. If it return something else such as **PlayerState**, some of the functions in this plugin will be broken.
 There are 2 ways to fix this, change your avatar actor to the character or change the code in my plugin to adapt with your "Avatar Actor" version.
  
 ---

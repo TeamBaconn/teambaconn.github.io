@@ -5,8 +5,8 @@
 &lt;/ul>
 &lt;h4 id="bug-fixes">Bug Fixes&lt;/h4>
 &lt;ul>
-&lt;li>&lt;strong>feat&lt;/strong>: Fix crash when activating context ability which the ASC is on the PlayerState not the Character / Pawn.&lt;/li>
-&lt;li>&lt;strong>Note&lt;/strong>: Keep in mind, &lt;code>GetAvatarActor&lt;/code> function of the ASC must return the Character / Pawn. If it return something else such as &lt;strong>PlayerState&lt;/strong>, some of the functions in this plugin will be broken.
+&lt;li>&lt;strong>fix&lt;/strong>: Fix crash when activating context ability which the ASC is on the PlayerState not the Character / Pawn.&lt;/li>
+&lt;li>&lt;strong>note&lt;/strong>: Keep in mind, &lt;code>GetAvatarActor&lt;/code> function of the ASC must return the Character / Pawn. If it return something else such as &lt;strong>PlayerState&lt;/strong>, some of the functions in this plugin will be broken.
 There are 2 ways to fix this, change your avatar actor to the character or change the code in my plugin to adapt with your &amp;ldquo;Avatar Actor&amp;rdquo; version.&lt;/li>
 &lt;/ul>
 &lt;hr>
