@@ -4,10 +4,21 @@ draft = false
 title = 'Changelog'
 +++
 
-## 1.1.2 (Latest on FAB)
+## 1.1.3 (Latest on FAB)
 
 #### Compatibility
-- UE `5.4` – `5.5`
+- UE `5.4` – `5.6`
+
+#### Bug Fixes
+
+- **feat**: Allow users to make custom ComboGraphAsset (inherit from `UComboGraphAsset`) and be able to create the Combo Graph from their custom base class.
+ 
+---
+
+## 1.1.2
+
+#### Compatibility
+- UE `5.4` – `5.6`
 
 #### Bug Fixes
 
