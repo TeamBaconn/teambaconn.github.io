@@ -90,7 +90,17 @@ Responsibility: Product Owner, Full-stack Developer
 Most of my games are available on [Itch.io](https://baconxpogo.itch.io/)\
 You can explore more games from my [old portfolio](https://app.milanote.com/1NrwH412sKgW0X?p=75Xo0ElaAOu)
 
-{{< figure src=/portfolio/brawl.jpg loading=lazy width=300 >}}
+{{< figure src=/portfolio/brawl2.png loading=lazy width=500 >}}
+> {{< collapse summary= "**Project Brawl - UE5 / PC - Console**">}}
+Framework: Unreal Engine\
+Responsibility: Solo Developer
+
+{{< youtube ZxMbmocNS1g >}} 
+
+{{</ collapse >}}
+
+\
+{{< figure src=/portfolio/brawl.jpg loading=lazy width=500 >}}
 > {{< collapse summary= "**Combat system - UE5 / PC**">}}
 Framework: Unreal Engine\
 Responsibility: Solo Developer
