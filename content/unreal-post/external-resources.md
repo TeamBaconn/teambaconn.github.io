@@ -6,6 +6,9 @@ summary = 'A collection of valuable resources for Unreal Engine developers, cove
 +++
 This post gathers some of the most useful resources I’ve come across — from general Unreal knowledge and multiplayer guides to the Gameplay Ability System (GAS) and advanced debugging techniques. Whether you’re a beginner or deep into production, these links can save you hours of searching.
 
+## 🐞 Git Knowledge
+- [Git for Unreal Engine](https://miltoncandelero.github.io/unreal-git)
+
 ## 💡 Unreal General Knowledge
 - Deep Unreal C++ topics with code demos: [YouTube — enigma_dev](https://www.youtube.com/@enigma_dev/videos)  
 - Unreal Notes (information is not fully documented but often golden if you dig deep): [ikrima.dev UE4 Guide](https://ikrima.dev/ue4guide/)  
@@ -47,3 +50,8 @@ Paste the following lines into Rider’s variable watcher (exclude the comments)
 // View the current game configuration
 {,,UnrealEditor-Core.dll}::GConfig
 ```
+
+---
+
+### CommonUI
+- [Different controller icon support](https://dev.epicgames.com/community/learning/tutorials/aw8o/unreal-engine-switching-gamepad-icons-at-runtime-with-common-ui)

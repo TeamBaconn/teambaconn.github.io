@@ -12,4 +12,5 @@ And it takes me weeks. Just to implement what Unreal "already supported" feature
 your game "local-coop" qualified :D.
 
 ## The basics
-# Spawning & creating & 
+# Spawning & creating players
+All of the local players are stored 
