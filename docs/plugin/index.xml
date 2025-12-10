@@ -61,8 +61,8 @@ Previously only one notify could trigger per frame; this update ensures all over
 &lt;p>This plugin supports &lt;strong>two modes&lt;/strong>, and setup/implementation may differ depending on the mode. These differences will be clearly annotated in the documentation as &lt;strong>GAS&lt;/strong> or &lt;strong>Generic&lt;/strong> use cases:&lt;/p>
 &lt;span style="
 background-color: #FFD700;
-padding: 2px 4px;
-margin: 1px;
+padding: 4px 2px 4px 8px;
+margin: 0px;
 border-radius: 2px;
 font-size: 95%;
 ">
@@ -72,7 +72,7 @@ font-weight: ;
 ">
 Choose the mode that best fits your project setup.
 &lt;/span>
-&lt;/span>
+&lt;/span>&amp;nbsp;
 &lt;ul>
 &lt;li>&lt;strong>GAS Mode&lt;/strong> (Recommended):&lt;br>
 ✅ Works well with Gameplay Ability System&lt;br>
@@ -101,8 +101,8 @@ Choose the mode that best fits your project setup.
 &lt;p>
 &lt;span style="
 background-color: red;
-padding: 2px 4px;
-margin: 1px;
+padding: 4px 2px 4px 8px;
+margin: 0px;
 border-radius: 2px;
 font-size: 95%;
 ">
@@ -112,13 +112,13 @@ font-weight: bold;
 ">
 IMPORTANT!!!
 &lt;/span>
-&lt;/span>
+&lt;/span>&amp;nbsp;
 &lt;br>
 &lt;br>
 &lt;span style="
 background-color: #FFD700;
-padding: 2px 4px;
-margin: 1px;
+padding: 4px 2px 4px 8px;
+margin: 0px;
 border-radius: 2px;
 font-size: 95%;
 ">
@@ -128,5 +128,5 @@ font-weight: bold;
 ">
 For GAS Users
 &lt;/span>
-&lt;/span>
+&lt;/span>&amp;nbsp;
 &lt;/p></description></item></channel></rss>

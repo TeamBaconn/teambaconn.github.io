@@ -1,6 +1,6 @@
 .post-content code{
-    color: #03ff03;
-    background-color: black;
+    color: var(--code-text);
+    background-color: var(--code-background);
 }
 
 .post-content {
@@ -12,8 +12,15 @@
 }
 
 :root {
-    --entry: rgb(226, 226, 226); 
+    --entry: rgb(226, 226, 226);
+    --code-background: rgb(255, 225, 0);
+    --code-text: rgb(0, 0, 0);
 } 
+
+.dark {
+    --code-background: #000000;
+    --code-text: #03ff03;
+}
 
 /* Generated using: hugo gen chromastyles --style=catppuccin-mocha */
 
