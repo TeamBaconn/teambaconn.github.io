@@ -1,11 +1,12 @@
 +++
 date = '2025-12-02T01:34:25+07:00'
 draft = false
+tocopen = true
 title = '[Unreal] Splitscreen Multiplayer Guide' 
 summary = 'A deep dive into the hidden challenges of building splitscreen multiplayer in Unreal Engine'
 tags = ['game', 'unreal', 'coop', 'multiplayer']
 [cover]
-image = '/posts/local-coop/splitscreen.gif' 
+image = '/posts/local-coop/splitscreen.gif'
 +++
 
 # Abstract
@@ -14,12 +15,12 @@ It’s been a while since my last blog post! Recently, I’ve been fully focused
 Although Unreal technically supports splitscreen out of the box, there’s **almost no proper documentation** from Epic explaining how to actually use it in a real project. Every tutorial out there just says something like:  
 > “Go to Project Settings, enable *Use Splitscreen*, and call `CreateLocalPlayer()`.”
 
-So I thought, *"Local multiplayer? Easy! Let’s do it!"* — and then spent **weeks** struggling to make Unreal’s **already supported** feature work as expected. Hopefully, by sharing what I’ve learned here, I can save you a lot of that time and frustration and help you get your game *local-coop ready* much faster 😄
+So I thought, *"Local multiplayer? Easy! Let’s do it!"* — and then spent **weeks** struggling to make Unreal’s **already supported** feature work as expected. Hopefully, by sharing what I’ve learned here (mostly random stuff), I may save you a lot of that time and frustration and help you get your game *local-coop ready* much faster 😄
 
 ---
 
-# ⚙️ Random guides
-## 🧱 Definitions
+# 1. ⚙️ Guides
+## 1.1 🧱 Definitions
 Before diving in, let's clarify the key terminology you'll encounter:
 
 {{< collapse summary="**`FInputDeviceId`**" >}}
@@ -57,8 +58,8 @@ LocalPlayer → PlayerController → Pawn
 
 ---
 
-## 🗿 Create / Remove Local Player
-All of the local players are stored in the `GameInstance`. To create and remove a local player it's quite simple as calling function
+## 1.2 🗿 Create / Remove Local Player
+All of the local players are stored in the `GameInstance`. To create and remove a local player it's quite simple as calling function.
 
 ```c
 ULocalPlayer* CreateLocalPlayer(int32 ControllerId, 
@@ -74,14 +75,16 @@ bool RemoveLocalPlayer(ULocalPlayer * ExistingPlayer);
 ```
 \
 \
-{{< color "#ffea00ff" "Notes: " "black" "bold" >}} 
+{{< color "#ffea00ff" "Notes: " "black" "bold" >}}
+- Make sure you enable `Use Splitscreen` in **Project Settings > Maps & Modes > Local Multiplayer**, if you wish to have the screen to be split for each local player. If all of the local players share the same screen, then you don't need to enable this.
+>
 - If you have no clue how to get the ControllerId or UserId and just want to spawn a new player, just use ControllerId -1. It should automatically create a new LocalPlayer for you.
 >
 - **You should always spawn the player controller** (by setting `bSpawnPlayerController = true`). There are no reason you want to spawn the LocalPlayer without PlayerController since it will automatically spawn a PlayerController for you after switching level. The only reason I can see you doing this is: It's middle of the game, you still want to create a LocalPlayer but not actually doing anything because the game is in progress. And it will automatically spawn the PlayerController after the game ends and switch level. But why letting that, instead just wait until the game finishes? It will create more unexpected behaviors (believe me, I go through the hard way)
 
 ---
 
-## 🪟 Widgets in Local Splitscreen
+## 1.3 🪟 Widgets in Local Splitscreen
 Working with widgets in local splitscreen can be tricky if you're only familiar with single-player games. The key concept to understand is:
 \
 \
@@ -89,7 +92,7 @@ Working with widgets in local splitscreen can be tricky if you're only familiar 
 
 {{< linebreak >}}
 
-### Adding Widget to Global & Local viewport
+### 1.3.1 Adding Widget to Global & Local viewport
 {{< figure
     src=/posts/local-coop/add-widget.png
     loading=lazy
@@ -123,7 +126,7 @@ Unreal provides 2 functions to add widgets to the screen:
 
 ---
 
-### WidgetComponent
+### 1.3.2 🐞 WidgetComponent "bug"
 When creating character health bars, you'll likely use WidgetComponent to display widgets in either World Space or Screen Space. While both look similar, they behave very differently in local co-op:
 
 **World Space:**
@@ -183,8 +186,8 @@ Create an **Actor Component that manages WidgetComponents** to ensure all player
 
 ---
 
-## Main menu in splitscreen games
-### Displaying the Menu
+## 1.4 Main menu in splitscreen games
+### 1.4.1 Displaying the Menu
 This is different than ingame UIs since ingame UIs are displayed separately for each local players. For main menu UI, most games use one single screen to display the menu. 
 
 {{< figure
@@ -200,7 +203,7 @@ This is different than ingame UIs since ingame UIs are displayed separately for 
 
 {{< linebreak >}}
 
-### Decide who can control and interact with the Menu 
+### 1.4.2 Decide who can control and interact with the Menu 
 
 - **Only the primary player can control the Menu**
 \
@@ -236,7 +239,7 @@ You will see this mostly in character selection menu in fighting games where you
 
 ---
 
-## Discorver new players
+## 1.5 🗿 Discover new players
 You already know how to manually add or remove local players. 
 But how do you let **players themselves** decide how many should join a session?
 
@@ -328,7 +331,7 @@ bool ThisClass::OnAnyInputKeyEvent(FInputKeyEventArgs& InputKeyEventArgs)
 
 ---
 
-## Press any button screen
+## 1.6 Press any button screen
 {{< figure
     src=/posts/local-coop/press-any-button.png
     loading=lazy
@@ -354,7 +357,7 @@ We already have the knowledge about `OnOverrideInputKey` delegate from the [prev
 
 ---
 
-## Local Splitscreen and Multiplayer
+## 1.7 Local Splitscreen and Multiplayer
 {{< figure
     src=/posts/local-coop/multiplayer.png
     loading=lazy
@@ -370,8 +373,8 @@ Unreal supports sending split join (see ULocalPlayer::SendSplitJoin) for other L
 
 ---
 
-# Notes
-## Your graphic will automatically degrade for splitscreen rendering
+# 2. Notes
+## 2.1 Your graphic will automatically degrade for splitscreen rendering
 This is understandable since you only have 1 hardware but now you're simulating more than 1 player. The budget will be split down maximum 4 times. So Unreal have some mechanism to degrade the rendering quality by disabling some features.
 
 {{< linebreak >}}
@@ -388,7 +391,7 @@ This can only fixed if you use custom build engine `LumenDefinitions.h` has the 
 
 ---
 
-## Keyboard and First Gamepad will have the same FInputDeviceId
+## 2.2 Keyboard and First Gamepad will have the same FInputDeviceId
 {{< color "#ff0000ff" "Problem: " "black" "bold" >}}
 \
 This causes problems when swapping devices. Unreal treats both the keyboard and the first gamepad as the same device, so swapping one also swaps the other. If you want to swap Gamepad ID 1 with Gamepad ID 0 of Player 1, Unreal swaps ID 1 and ID 0. Because the keyboard also uses ID 0, it gets swapped too.
