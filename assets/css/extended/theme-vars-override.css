@@ -14,7 +14,8 @@
 :root {
     --entry: rgb(226, 226, 226);
     --code-background: rgb(255, 225, 0);
-    --code-text: rgb(0, 0, 0);
+    --code-text: rgb(0, 0, 0); 
+    --post-width: 100%;
 } 
 
 .dark {

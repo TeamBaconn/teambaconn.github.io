@@ -1,0 +1,42 @@
+@media (min-width: 1000px) {
+    /* Base: single column (mobile + no image) */
+    .post-entry {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content; 
+    }
+
+    .post-entry .entry-cover img {
+        width: 100%; 
+    }
+
+    .post-entry:has(.entry-cover) {
+        grid-template-columns: minmax(300px, 50%) 1fr; 
+        grid-auto-rows: min-content 1fr min-content; 
+        column-gap: 20px;
+        align-items: start;
+    }
+
+    /* Image spans full height but DOES NOT define row height */
+    .post-entry:has(.entry-cover) .entry-cover {
+        grid-column: 1;
+        grid-row: span 3; 
+        margin-bottom: 0;
+    }
+
+    /* Text stays top-left and hugs content */
+    .post-entry:has(.entry-cover) .entry-header {
+        grid-column: 2;
+        grid-row: 1; 
+    }
+
+    .post-entry:has(.entry-cover) .entry-content {
+        grid-column: 2;
+        grid-row: 2;   
+    }
+
+    .post-entry:has(.entry-cover) .entry-footer {
+        grid-column: 2;
+        grid-row: 3;
+    }
+}

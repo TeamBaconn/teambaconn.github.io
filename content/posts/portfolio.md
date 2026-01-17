@@ -1,6 +1,7 @@
 +++
 date = '2025-03-20T11:07:57+07:00'
 draft = false
+weight = 1
 title = 'Tuong Nguyen - Game Developer Portfolio'
 summary = 'I am a game developer specializing in systems and gameplay programming in Unreal and Unity, focused on writing efficient, clean code and tackling new challenges in game development.'
 tags = ['portfolio', 'game', 'showcase', 'unreal']

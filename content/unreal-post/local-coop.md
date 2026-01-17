@@ -2,6 +2,7 @@
 date = '2025-12-02T01:34:25+07:00'
 draft = false
 tocopen = true
+weight = 100
 title = '[Unreal] Splitscreen Multiplayer Guide' 
 summary = 'A deep dive into the hidden challenges of building splitscreen multiplayer in Unreal Engine'
 tags = ['game', 'unreal', 'coop', 'multiplayer']

@@ -82,18 +82,17 @@ params:
         src=logo.png
         loading=lazy 
         width=256
-      >}}
+      >}} 
       \n\n
-      >\n\n
       Hi, I’m Bacon 🥓"
     content:
-      "I make games, apps with Unreal Engine, Unity and other frameworks. This blog is where I share my working experiences, personal stories, and everything in between. I hope you enjoy it!
+      "I develop games and applications with Unreal Engine, Unity, and other frameworks. This blog is where I share my working experiences, personal stories, and everything in between. I hope you enjoy it and if you find it helpful, consider supporting me on <a style='text-decoration:underline;' href='https://ko-fi.com/bacongamedev'>☕ Kofi</a>
       \n\n
       >\n\n 
-      About me: [📋 Portfolio](../posts/portfolio)
+      About me: 📋<a style='text-decoration:underline;' href='../posts/portfolio'>Portfolio</a>
       \n\n
       \n\n
-      Support me: [☕ Kofi](https://ko-fi.com/bacongamedev)"
+      My plugin: ✊<a style='text-decoration:underline;' href='https://www.fab.com/listings/36e3cb80-e6af-4da9-b108-41f7d909f1b4'>Bacon Combo Graph</a>"
   socialIcons:
     - name: youtube
       url: "https://www.youtube.com/@bacongamedev"
@@ -105,6 +104,8 @@ params:
       url: "https://www.facebook.com/chilabacon/"
     - name: github
       url: "https://github.com/TeamBaconn"
+    - name: kofi
+      url: "https://ko-fi.com/bacongamedev"
 
   cover:
     hidden: false

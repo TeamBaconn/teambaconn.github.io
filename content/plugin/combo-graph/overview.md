@@ -1,6 +1,7 @@
 +++
 date = '2025-05-02T14:07:27+07:00'
 draft = false
+weight = 1
 title = 'Bacon Combo Graph'
 summary = 'Bacon Combo Graph is an Unreal Engine plugin (UE5.4+) designed to help you build complex, animation-driven combat systems fast and easy'
 tags = ['gas', 'game', 'unreal', 'animation']

@@ -1,0 +1,36 @@
+/* Increase the default width of the page. */
+.main {
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+}
+
+.main:has(.first-entry) {
+    max-width: calc(var(--main-width) + var(--gap) * 15);
+}
+
+.post-entry {
+    max-width: calc(var(--main-width) + var(--gap) * 15);
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-entry {
+    max-width: calc(var(--main-width));
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+/* Increase the width of images placed in home info. */
+.home-info .entry-content img {
+    width: 100%;
+    max-width: fit-content;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* Increase the font of summary text. */
+.post-entry .entry-content {
+    font-size: 18px;
+}

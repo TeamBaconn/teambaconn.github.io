@@ -1,6 +1,7 @@
 +++
 date = '2025-10-31T14:57:08+07:00'
 draft = false
+weight = 100
 title = '[Unreal] Using State Tree Beyond AI'
 summary = 'State Tree examples for game systems'
 tags = ['state tree', 'game', 'unreal', 'gameplay tag', 'ai']
