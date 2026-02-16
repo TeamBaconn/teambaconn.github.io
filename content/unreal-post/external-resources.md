@@ -23,6 +23,10 @@ This post gathers some of the most useful resources I’ve come across — from 
 - A great starting point for multiplayer basics: [Multiplayer Starter Knowledge](https://www.youtube.com/watch?v=JOJP0CvpB8w)  
 - General multiplayer tips and tricks (**must read**): [Wizardcell Multiplayer Tips](https://wizardcell.com/unreal/multiplayer-tips-and-tricks/)
 
+--
+
+## 🧰 Tool Knowledge
+- Resave assets in bulk: [UE5 Bulk Asset Resave](https://x157.github.io/UE5/Engine/Resave-Assets.html)
 ---
 
 ## 🗡️ Gameplay Ability System (GAS)

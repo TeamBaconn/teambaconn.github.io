@@ -24,6 +24,9 @@ UMassActorSpawnerSubsystem::OnPrePhysicsPhaseStarted
 UMassActorSpawnerSubsystem::ProcessPendingSpawnRequest
 UMassActorSpawnerSubsystem::ProcessSpawnRequest
 
+# Mass pool actor
+Mass pool actor does not handle collision case, you have to handle manually.
+
 # Mass Movement
 
 ## Mass entity
@@ -47,7 +50,7 @@ Since it's not spawn from Mass, it must has:
 - https://github.com/Megafunk/MassSample?tab=readme-ov-file
 - https://x157.github.io/UE5/Mass/
 - https://dev.epicgames.com/community/learning/tutorials/zqZZ/unreal-engine-epic-for-indies-designing-scalable-crowds-with-mass-ai-a-comprehensive-ue-guide
-
+- https://zhuanlan.zhihu.com/p/25495128293
 ## Others
 - Instanced Actors Plugin: https://www.youtube.com/watch?v=nm3NEfbEe7Y
 - VAT: https://www.unrealcode.net/AnimationTextureMaterials.html

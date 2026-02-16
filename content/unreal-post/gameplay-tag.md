@@ -78,6 +78,10 @@ TMap<FGameplayTag, float> SetByCallerMagnitudes;
 // Restrict function parameters (must not be a reference parameter)
 UFUNCTION(BlueprintCallable, Meta = (GameplayTagFilter = "General.Input"))
 void ExampleFunc(FGameplayTag Input);
+
+// Or for multiple categories
+UFUNCTION(BlueprintCallable)
+void SellItems(UPARAM(meta=(Categories="Inventory.Item") )FGameplayTag Itemtag, int32 Count);
 ```
 
 By using these metadata settings, you can improve organization and enforce structured tag usage in your Blueprint systems.
