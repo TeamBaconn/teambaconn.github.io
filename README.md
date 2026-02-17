@@ -1,3 +1,4 @@
 Personal blog about game dev.
 
-Thanks Bang Tam (my talented classmate) for introducing me with the HUGO framework and template for this blog ;).
+Huge thanks to Bang Tam, my talented classmate, for introducing me to the HUGO framework and this blog template.
+And thanks to Huy Vu, my dear friend, for saving me from the domain headache.
