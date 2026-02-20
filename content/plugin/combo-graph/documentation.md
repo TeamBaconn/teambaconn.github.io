@@ -4,7 +4,7 @@ draft = false
 title = 'Documentation'
 tocopen = true
 [cover]
-image = "/plugin/combo-graph/combo2.png"
+image = "/plugin/combo-graph/combo2.jpg"
 +++
 
 # ⚠️ Usage Modes – Read Before Using
@@ -35,7 +35,7 @@ Root node is the starting point of the graph. When the graph resets, it returns 
 ---
 
 ## Execution Node
-{{< figure src="/plugin/combo-graph/combo12.png" loading="lazy" >}}
+{{< figure src="/plugin/combo-graph/combo12.jpg" loading="lazy" >}}
 
 Used to perform actions, such as playing animations, consuming mana, or triggering gameplay effects.
 
@@ -77,7 +77,7 @@ Create a custom Condition Pass by inheriting from `UComboConditionPass`.
 
 ## Input Node
 
-{{< figure src="/plugin/combo-graph/combo3.png" loading="lazy" >}}
+{{< figure src="/plugin/combo-graph/combo3.jpg" loading="lazy" >}}
 
 Waits for a specific player input before continuing the combo.  
 You define input types using **Gameplay Tags** and can integrate with the **Enhanced Input System** for more advanced input handling.
@@ -85,7 +85,7 @@ You define input types using **Gameplay Tags** and can integrate with the **Enha
 {{< linebreak >}}
 ### How to Create a New Input
 
-{{< figure src="/plugin/combo-graph/combo8.png" loading="lazy" >}}
+{{< figure src="/plugin/combo-graph/combo8.jpg" loading="lazy" >}}
 
 1. Define a **GameplayTag** that starts with `ComboGraph.Input`, e.g., `ComboGraph.Input.HeavyAttack`.  
    You can manage your tags in a DataTable using [`FGameplayTagTableRow`](https://dev.epicgames.com/documentation/en-us/unreal-engine/using-gameplay-tags-in-unreal-engine).
@@ -94,7 +94,7 @@ You define input types using **Gameplay Tags** and can integrate with the **Enha
 
 3. In your `PlayerController` or `Character`, bind the input event and trigger the combo graph using the tag you defined.
 
-{{< figure src="/plugin/combo-graph/combo9.png" loading="lazy" >}}
+{{< figure src="/plugin/combo-graph/combo9.jpg" loading="lazy" >}}
 
 4. For more advanced control, you can add direction to the tag.  
    Example: `ComboGraph.Input.HeavyAttack.B` can represent a backward heavy attack.  

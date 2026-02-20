@@ -5,14 +5,14 @@ title = '[Unreal] Animation Driven System'
 summary = 'A general overview of animation-driven systems in game development, along with practical tips and implementation strategies for building them using GAS.'
 tags = ['gas', 'game', 'unreal', 'animation']
 [cover]
-image = "/posts/animation-driven/anim4.png"
+image = "/posts/animation-driven/anim4.jpg"
 hiddenInSingle = true
 +++
 
 ## What is animation driven?
 
 {{< figure
-    src=/posts/animation-driven/anim1.png
+    src=/posts/animation-driven/anim1.jpg
     loading=lazy  
 >}}
 
@@ -32,7 +32,7 @@ Let’s take a simple AOE skill as an example and compare two different implemen
 
 {{< figure
     width=100%
-    src=/posts/animation-driven/anim3.png
+    src=/posts/animation-driven/anim3.jpg
     loading=lazy  
 >}}
 
@@ -45,7 +45,7 @@ In this setup, the skill system plays the animation, then waits for 0.4s before 
 
 {{< figure
     width=100%
-    src=/posts/animation-driven/anim2.png
+    src=/posts/animation-driven/anim2.jpg
     loading=lazy  
 >}}
 
@@ -67,7 +67,7 @@ You should consider using animation-driven systems when:
 
 {{< figure
     width=100%
-    src=/posts/animation-driven/anim4.png
+    src=/posts/animation-driven/anim4.jpg
     loading=lazy  
 >}}
 
@@ -81,7 +81,7 @@ Even better, moving some logic into animation assets lets game designers create 
 
 {{< figure
     width=100%
-    src=/posts/animation-driven/anim5.png
+    src=/posts/animation-driven/anim5.jpg
     loading=lazy  
 >}}
 

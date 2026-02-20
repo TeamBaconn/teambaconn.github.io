@@ -41,7 +41,7 @@ Website: [Sipher Odyssey](https://playsipher.com/)
 {{< youtube JO837BZrbPs >}}
 
 {{< figure
-    src=/portfolio/sipher3.png
+    src=/portfolio/sipher3.jpg
     loading=lazy  
 >}}
 
@@ -51,7 +51,7 @@ Website: [Sipher Odyssey](https://playsipher.com/)
 >}}
 
 {{< figure
-    src=/portfolio/sipher2.png
+    src=/portfolio/sipher2.jpg
     loading=lazy  
 >}}
 
@@ -69,19 +69,19 @@ Responsibility: Product Owner, Full-stack Developer
 >}}
 
 {{< figure
-    src=/portfolio/demonhunter1.png
+    src=/portfolio/demonhunter1.jpg
     loading=lazy  
 >}} 
 
 {{< figure
-    src=/portfolio/demonhunter4.png
+    src=/portfolio/demonhunter4.jpg
     loading=lazy  
 >}} 
 
 {{< youtube -pcU8QSnT14 >}}
 
 {{< figure
-    src=/portfolio/demonhunter2.png
+    src=/portfolio/demonhunter2.jpg
     loading=lazy  
 >}} 
 
@@ -91,7 +91,7 @@ Responsibility: Product Owner, Full-stack Developer
 Most of my games are available on [Itch.io](https://baconxpogo.itch.io/)\
 You can explore more games from my [old portfolio](https://app.milanote.com/1NrwH412sKgW0X?p=75Xo0ElaAOu)
 
-{{< figure src=/portfolio/brawl2.png loading=lazy width=500 >}}
+{{< figure src=/portfolio/brawl2.jpg loading=lazy width=500 >}}
 > {{< collapse summary= "**Project Brawl - UE5 / PC - Console**">}}
 Framework: Unreal Engine\
 Responsibility: Solo Developer
@@ -112,7 +112,7 @@ Responsibility: Solo Developer
 {{</ collapse >}}
 
 \
-{{< figure src=/portfolio/magictyper.png loading=lazy width=300 >}}
+{{< figure src=/portfolio/magictyper.jpg loading=lazy width=300 >}}
 > {{< collapse summary= "**Magic Typer - Web / Mobile**">}}
 Framework: Unity\
 Responsibility: Solo Developer
@@ -123,7 +123,7 @@ Responsibility: Solo Developer
 {{</ collapse >}}
 
 \
-{{< figure src=/portfolio/farm.png loading=lazy width=300 >}}
+{{< figure src=/portfolio/farm.jpg loading=lazy width=300 >}}
 > {{< collapse summary= "**Farm Fortune - Web**">}}
 Framework: Unity\
 Responsibility: Solo Developer
@@ -133,7 +133,7 @@ Responsibility: Solo Developer
 {{</ collapse >}}
 
 \
-{{< figure src=/portfolio/hell.png loading=lazy width=300 >}}
+{{< figure src=/portfolio/hell.jpg loading=lazy width=300 >}}
 > {{< collapse summary= "**Hellevator - Web / Mobile**">}}
 Framework: Unity\
 Responsibility: Solo Developer
@@ -144,7 +144,7 @@ Responsibility: Solo Developer
 {{</ collapse >}}
 
 \
-{{< figure src=/portfolio/chess.png loading=lazy width=300 >}}
+{{< figure src=/portfolio/chess.jpg loading=lazy width=300 >}}
 > {{< collapse summary="**Chess Factorio - Web**">}}
 Framework: Unity\
 Responsibility: Solo Developer

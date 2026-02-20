@@ -38,7 +38,7 @@ For AI, its use is quite straightforward. But when I thought about applying Stat
 
 - You can use State Tree to handle a **FTUE (First Time User Experience)** flow.  
   {{< figure
-      src=/posts/state-tree-beyond-ai/tutorial.png
+      src=/posts/state-tree-beyond-ai/tutorial.jpg
       loading=lazy
       width=100%
   >}}  
@@ -73,7 +73,7 @@ If you’re on an older version, proceed with caution — you’ll likely hit bl
 - In **5.5** and below, note that when **any task** in a state completes, the state itself is also considered complete.  
   For async tasks (that keep running until their children finish), either avoid calling `FinishTask`, or expose a boolean parameter to control it — allowing you to reuse that task in different scenarios.  
   {{< figure
-      src=/posts/state-tree-beyond-ai/finish-task.png
+      src=/posts/state-tree-beyond-ai/finish-task.jpg
       loading=lazy
       width=100%
   >}}  

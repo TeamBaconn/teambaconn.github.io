@@ -35,13 +35,13 @@ Make sure your Character blueprint or C++ has these components added:
 
 ## 2. Create a Combo Graph
 
-{{< figure src=/plugin/combo-graph/combo1.png loading=lazy >}}  
+{{< figure src=/plugin/combo-graph/combo1.jpg loading=lazy >}}  
 
 1. Create the Combo Graph Asset. This is where combat designers primarily work.  
    It stores the full combo tree with branching and variations.
 
 \
-{{< figure src=/plugin/combo-graph/combo2.png loading=lazy >}}  
+{{< figure src=/plugin/combo-graph/combo2.jpg loading=lazy >}}  
 
 2. Right-click on the graph to open the node creation panel.  
    Focus on:
@@ -55,7 +55,7 @@ Make sure your Character blueprint or C++ has these components added:
    This marks the entry point of your combo.
 
 \
-{{< figure src=/plugin/combo-graph/combo3.png loading=lazy >}}  
+{{< figure src=/plugin/combo-graph/combo3.jpg loading=lazy >}}  
 
 4. Click the node and configure it using the **Node Data** panel.  
    Specify which input (via **Gameplay Tags**) triggers the next combo step.  
@@ -63,7 +63,7 @@ Make sure your Character blueprint or C++ has these components added:
 
 \
 5. Create an `Execution Node` and connect it to the previous `Input Branch`.
-{{< figure src=/plugin/combo-graph/combo12.png loading=lazy >}}  
+{{< figure src=/plugin/combo-graph/combo12.jpg loading=lazy >}}  
 
 6. Add an Execution Pass (e.g., Play Montage) and assign your chosen animation montage.
 
@@ -81,7 +81,7 @@ Make sure your Character blueprint or C++ has these components added:
 
 ## 4. Setup Combo Graph on Your Character
 
-{{< figure src=/plugin/combo-graph/combo6.png loading=lazy >}}  
+{{< figure src=/plugin/combo-graph/combo6.jpg loading=lazy >}}  
 
 1. Open your `ComboManagerComponent` settings and add a default Combo Graph:
 2. Select your Combo Graph asset.
@@ -100,12 +100,12 @@ Make sure your Character blueprint or C++ has these components added:
    > Use `ComboGraphInstance_Generic`
 
 ### Grant combo graph in runtime 
-{{< figure src=/plugin/combo-graph/combo10.png loading=lazy >}}   
+{{< figure src=/plugin/combo-graph/combo10.jpg loading=lazy >}}   
 
 ### Swap between combo graphs
 There can only be one combo graph activated per Character / Combo Manager. To switch the active combo graph in runtime you can use the node below.
 
-{{< figure src=/plugin/combo-graph/combo7.png loading=lazy >}}  
+{{< figure src=/plugin/combo-graph/combo7.jpg loading=lazy >}}  
 
 **💡 Tip:** 
 - `GetCurrentInstance` return the current instance but you can add an offset index `+1` or `-1` to grab the left or right graph instance in the list.
@@ -119,7 +119,7 @@ We use animation-driven design: static data is stored in animations and triggere
 
 1. Open the montage used in your Combo Graph.
 
-{{< figure src=/plugin/combo-graph/combo5.png loading=lazy >}}  
+{{< figure src=/plugin/combo-graph/combo5.jpg loading=lazy >}}  
 
 \
 2. Add these three Notify States:
@@ -159,14 +159,14 @@ The plugin provides built-in collision detection for both GAS and non-GAS setups
 \
 {{< color "#FFD700" "For GAS Users" "black" "bold" >}}
 
->{{< figure src=/plugin/combo-graph/combo4.png loading=lazy >}}  
+>{{< figure src=/plugin/combo-graph/combo4.jpg loading=lazy >}}  
 >
 >Use the `GA_CombatAbility_Base` and override the `OnHit` function to handle hit events.
 
 \
 {{< color "#6c757d" "For Generic Users" "white" "bold" >}} 
 
->{{< figure src=/plugin/combo-graph/combo11.png loading=lazy >}}  
+>{{< figure src=/plugin/combo-graph/combo11.jpg loading=lazy >}}  
 >
 >__Refer to `CBP_BasicComboCharacter → BeginPlay` for a complete example.__
 >

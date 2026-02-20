@@ -28,7 +28,7 @@ Below is a **VERY SIMPLIFIED** flow chart of how Unreal routes input. I’ve rem
 
 ⚠️ Don’t freak out when you see the chart as I will break down some functions afterwards.
 {{< figure
-    src=/posts/common-ui-input-routing/flow.png
+    src=/posts/common-ui-input-routing/flow.jpg
     loading=lazy
     width=100%
 >}} 

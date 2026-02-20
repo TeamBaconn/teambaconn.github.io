@@ -95,7 +95,7 @@ Working with widgets in local splitscreen can be tricky if you're only familiar 
 
 ### 1.3.1 Adding Widget to Global & Local viewport
 {{< figure
-    src=/posts/local-coop/add-widget.png
+    src=/posts/local-coop/add-widget.jpg
     loading=lazy
     width=100%
 >}}  
@@ -192,7 +192,7 @@ Create an **Actor Component that manages WidgetComponents** to ensure all player
 This is different than ingame UIs since ingame UIs are displayed separately for each local players. For main menu UI, most games use one single screen to display the menu. 
 
 {{< figure
-    src=/posts/local-coop/menu-ui.png
+    src=/posts/local-coop/menu-ui.jpg
     loading=lazy
     width=100%
 >}} 
@@ -220,7 +220,7 @@ This easily becomes chaotic. I wouldn't recommend this but if you still want to 
 
 - **Each local player has their own pointer**  
 {{< figure
-    src=/posts/local-coop/selection-screen.png
+    src=/posts/local-coop/selection-screen.jpg
     loading=lazy
     width=100%
 >}}
@@ -248,7 +248,7 @@ There are two main approaches.
 
 ### 1. Let the Primary Player Register/Unregister Others
 {{< figure
-    src=/posts/local-coop/register-player-old.png
+    src=/posts/local-coop/register-player-old.jpg
     loading=lazy
     width=100%
 >}} 
@@ -262,7 +262,7 @@ You will have a button or a slider that allow the primary player to add and remo
 
 ### 2. Let Input Devices Register Themselves
 {{< figure
-    src=/posts/local-coop/register-player.png
+    src=/posts/local-coop/register-player.jpg
     loading=lazy
     width=100%
 >}} 
@@ -334,7 +334,7 @@ bool ThisClass::OnAnyInputKeyEvent(FInputKeyEventArgs& InputKeyEventArgs)
 
 ## 1.6 Press any button screen
 {{< figure
-    src=/posts/local-coop/press-any-button.png
+    src=/posts/local-coop/press-any-button.jpg
     loading=lazy
     width=100%
 >}} 
@@ -360,7 +360,7 @@ We already have the knowledge about `OnOverrideInputKey` delegate from the [prev
 
 ## 1.7 Local Splitscreen and Multiplayer
 {{< figure
-    src=/posts/local-coop/multiplayer.png
+    src=/posts/local-coop/multiplayer.jpg
     loading=lazy
     width=100%
 >}} 

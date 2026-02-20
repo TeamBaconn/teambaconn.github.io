@@ -58,7 +58,7 @@ By enforcing tag prefixes, you:
 - Keep tags organized and readable.
 
 {{< figure
-    src=/posts/gameplay-tag/tag.png
+    src=/posts/gameplay-tag/tag.jpg
     loading=lazy  
 >}}
 
