@@ -70,7 +70,6 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
-  comments: true
 
   profileMode:
     enabled: false

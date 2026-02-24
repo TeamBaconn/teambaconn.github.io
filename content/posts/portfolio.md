@@ -154,6 +154,19 @@ Responsibility: Solo Developer
 {{</ collapse >}}
 
 # Non-game projects 
+> {{< collapse summary="**HanCards - Web App**" >}} 
+{{< figure
+    src=/portfolio/hancards.gif
+    loading=lazy  
+>}}
+**HanCards** is a simple, offline-capable flashcard web app for learning Korean vocabulary. Users can add their own vocabulary sets via CSV or study with built-in decks. The app is lightweight, works fully offline, and supports both English and Vietnamese interfaces.
+
+- **Platform:** Web (PWA, offline support) 
+- **Tech:** Vite, React, JavaScript
+- **Website:** [hancards.bacongamedev.com](https://hancards.bacongamedev.com/) 
+
+{{</ collapse >}}
+
 > {{< collapse summary="**Stylix - Mobile App**" open=true >}}
 **Stylix** is a mobile app that allows users to virtually try on any clothes before purchase. We accurately analyze the body of users, allowing them to try on any clothes at any time and anywhere. By using state-of-the-art models, our technology can map 2D images of clothes onto the user's body despite their unique shape in no time and at low cost.
 

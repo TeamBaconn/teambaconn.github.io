@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Plugins on BaconGameDev's Blog</title><link>https://teambaconn.github.io/plugin/</link><description>Recent content in Plugins on BaconGameDev's Blog</description><generator>Hugo -- 0.156.0</generator><language>en</language><lastBuildDate>Fri, 02 May 2025 14:07:27 +0700</lastBuildDate><atom:link href="https://teambaconn.github.io/plugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Bacon Combo Graph</title><link>https://teambaconn.github.io/plugin/combo-graph/overview/</link><pubDate>Fri, 02 May 2025 14:07:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/overview/</guid><description>Bacon Combo Graph is an Unreal Engine plugin (UE5.4+) designed to help you build complex, animation-driven combat systems fast and easy</description></item><item><title>Changelog</title><link>https://teambaconn.github.io/plugin/combo-graph/changelog/</link><pubDate>Thu, 01 May 2025 14:07:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/changelog/</guid><description>&lt;h2 id="113-latest-on-fab"&gt;1.1.3 (Latest on FAB)&lt;/h2&gt;
+&lt;h4 id="compatibility"&gt;Compatibility&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;UE &lt;code&gt;5.4&lt;/code&gt; – &lt;code&gt;5.6&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="bug-fixes"&gt;Bug Fixes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;feat&lt;/strong&gt;: Allow users to make custom ComboGraphAsset (inherit from &lt;code&gt;UComboGraphAsset&lt;/code&gt;) and be able to create the Combo Graph from their custom base class.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="112"&gt;1.1.2&lt;/h2&gt;
+&lt;h4 id="compatibility-1"&gt;Compatibility&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;UE &lt;code&gt;5.4&lt;/code&gt; – &lt;code&gt;5.6&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="bug-fixes-1"&gt;Bug Fixes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;fix&lt;/strong&gt;: Fix crash when activating context ability which the ASC is on the PlayerState not the Character / Pawn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;note&lt;/strong&gt;: Keep in mind, &lt;code&gt;GetAvatarActor&lt;/code&gt; function of the ASC must return the Character / Pawn. If it return something else such as &lt;strong&gt;PlayerState&lt;/strong&gt;, some of the functions in this plugin will be broken.
+There are 2 ways to fix this, change your avatar actor to the character or change the code in my plugin to adapt with your &amp;ldquo;Avatar Actor&amp;rdquo; version.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="111"&gt;1.1.1&lt;/h2&gt;
+&lt;h4 id="compatibility-2"&gt;Compatibility&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;UE &lt;code&gt;5.4&lt;/code&gt; – &lt;code&gt;5.5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="bug-fixes-2"&gt;Bug Fixes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;feat&lt;/strong&gt;: Add UActionPass_ActivateGenericAbility to activate normal UGameplayAbility. UActionPass_ActivateAbility will only be able to activate
+ability derived from UContextAbility class.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="11"&gt;1.1&lt;/h2&gt;
+&lt;h4 id="compatibility-3"&gt;Compatibility&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;UE &lt;code&gt;5.4&lt;/code&gt; – &lt;code&gt;5.5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="bug-fixes-3"&gt;Bug Fixes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;fix&lt;/strong&gt;: Support multiple damage notifies in a single frame.&lt;br&gt;
+Previously only one notify could trigger per frame; this update ensures all overlapping notifies are processed correctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="10"&gt;1.0&lt;/h2&gt;
+&lt;h4 id="compatibility-4"&gt;Compatibility&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;UE &lt;code&gt;5.4&lt;/code&gt; – &lt;code&gt;5.5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="new-features"&gt;New Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;feat&lt;/strong&gt;: Initial release of ComboGraph.
+&lt;ul&gt;
+&lt;li&gt;Visual graph editor for designing combo sequences.&lt;/li&gt;
+&lt;li&gt;Directional branching, animation timing, and input buffering.&lt;/li&gt;
+&lt;li&gt;Runtime component for execution in both C++ and Blueprints.&lt;/li&gt;
+&lt;li&gt;Includes demo map: &lt;code&gt;L_Demo&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Documentation</title><link>https://teambaconn.github.io/plugin/combo-graph/documentation/</link><pubDate>Wed, 30 Apr 2025 16:58:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/documentation/</guid><description>&lt;h1 id="-usage-modes--read-before-using"&gt;⚠️ Usage Modes – Read Before Using&lt;/h1&gt;
+&lt;p&gt;This plugin supports &lt;strong&gt;two modes&lt;/strong&gt;, and setup/implementation may differ depending on the mode. These differences will be clearly annotated in the documentation as &lt;strong&gt;GAS&lt;/strong&gt; or &lt;strong&gt;Generic&lt;/strong&gt; use cases:&lt;/p&gt;
+&lt;span style="
+background-color: #FFD700;
+padding: 4px 2px 4px 8px;
+margin: 0px;
+border-radius: 2px;
+font-size: 95%;
+"&gt;
+&lt;span style="
+color: black;
+font-weight: ;
+"&gt;
+Choose the mode that best fits your project setup.
+&lt;/span&gt;
+&lt;/span&gt;&amp;nbsp;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GAS Mode&lt;/strong&gt; (Recommended):&lt;br&gt;
+✅ Works well with Gameplay Ability System&lt;br&gt;
+✅ Full feature support&lt;br&gt;
+✅ Built-in replication via GAS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Generic Mode&lt;/strong&gt;:&lt;br&gt;
+✅ Full feature support&lt;br&gt;
+❌ &lt;strong&gt;No replication support&lt;/strong&gt; – manual replication is required if needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="node-types"&gt;Node Types&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id="root-node"&gt;Root Node&lt;/h2&gt;
+&lt;p&gt;Root node is the starting point of the graph. When the graph resets, it returns to this node.&lt;/p&gt;</description></item><item><title>Quick Start</title><link>https://teambaconn.github.io/plugin/combo-graph/quick-start/</link><pubDate>Wed, 30 Apr 2025 14:21:27 +0700</pubDate><guid>https://teambaconn.github.io/plugin/combo-graph/quick-start/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oyybI_qCwcw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;- You can watch the tutorial video and follow the text version below.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="1-prepare-your-acharacter"&gt;1. Prepare your ACharacter&lt;/h2&gt;
+&lt;p&gt;Make sure your Character blueprint or C++ has these components added:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;AnimationDrivenComponent&lt;/code&gt; – For listening to animation montage data and signaling it to other systems (e.g., gameplay abilities)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ComboManagerComponent&lt;/code&gt; – For managing the combo graph&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;span style="
+background-color: red;
+padding: 4px 2px 4px 8px;
+margin: 0px;
+border-radius: 2px;
+font-size: 95%;
+"&gt;
+&lt;span style="
+color: white;
+font-weight: bold;
+"&gt;
+IMPORTANT!!!
+&lt;/span&gt;
+&lt;/span&gt;&amp;nbsp;
+&lt;br&gt;
+&lt;br&gt;
+&lt;span style="
+background-color: #FFD700;
+padding: 4px 2px 4px 8px;
+margin: 0px;
+border-radius: 2px;
+font-size: 95%;
+"&gt;
+&lt;span style="
+color: black;
+font-weight: bold;
+"&gt;
+For GAS Users
+&lt;/span&gt;
+&lt;/span&gt;&amp;nbsp;
+&lt;/p&gt;</description></item></channel></rss>
