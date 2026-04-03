@@ -4,7 +4,17 @@ draft = false
 title = 'Changelog'
 +++
 
-## 1.1.3 (Latest on FAB)
+## 1.1.4 (Latest on FAB)
+
+#### Compatibility
+- UE `5.7`
+
+#### Bug Fixes
+
+- **fix**: Fix the incorrect document link
+- **fix**: Fix the `SGraphEditor::GetPasteLocation` warning that could break in future UE versions.
+
+## 1.1.3
 
 #### Compatibility
 - UE `5.4` – `5.6`
